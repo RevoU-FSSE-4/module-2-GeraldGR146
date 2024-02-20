@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 HSR 2.0 Characters
 ==================
 Black Swan
