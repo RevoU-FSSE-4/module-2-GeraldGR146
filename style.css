@@ -80,7 +80,34 @@ footer {
 }
 
 .img-box {
-    object-fit: cover;
+    width: 600px;
+    height: 500px;
+    background: transparent;
+    margin: 0 20px;
+    border-radius: 20px;
+    background-size: 40px 40px;
+    animation: anibg 0.5s linear infinite;
+    animation-play-state: paused;
+}
+
+.img-box:hover {
+    animation-play-state: running;
+    background: linear-gradient(45deg, #2da2ff 25%, goldenrod 25%, #2da2ff 50%, #2da2ff 75%, goldenrod 75%, goldenrod 100%);
+    background-size: 40px 40px;
+}
+
+@keyframes anibg {
+    0% {
+        background-position: 0 0;
+    }
+
+    33% {
+        background-position: 20px 20px;
+    }
+
+    100% {
+        background-position: 40px 40px;
+    }
 }
 
 a {
