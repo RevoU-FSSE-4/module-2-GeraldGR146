@@ -1,35 +1,40 @@
 body {
+    font-family: 'Barlow', 'san-serif';
+    font-weight: 400;
+    font-style: normal;
     font-size: medium;
-    color: blue;
-    font-family: fantasy;
+    color: goldenrod;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url("https://presseplay.fr/wp-content/uploads/2024/01/penacony-1600x900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
-    font-family: 'Sixtyfour';
     font-size: 100px;
+    text-align: center;
 }
 
 h2 {
-    font-family: 'Sixtyfour';
     font-size: 50px;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 30px 0px;
+    text-align: center;
 }
 
 h3 {
-    font-family: 'Sixtyfour';
     font-size: 25px;
     justify-content: center;
     align-items: center;
 }
 
 h4 {
-    font-family: 'Sixtyfour';
     font-size: 20px;
     justify-content: center;
     align-items: center;
