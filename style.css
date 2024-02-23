@@ -119,3 +119,15 @@ a:hover {
     background-color: goldenrod;
     color: gold;
 }
+
+@media screen and (max-width: 950px) {
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .iframed {
+        padding-top: 15em;
+        padding-left: 9em;
+    }
+}
