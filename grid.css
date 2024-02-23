@@ -147,3 +147,57 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .BS-grid {
+        grid-template-rows: repeat(11, 75px);
+    }
+    #BS-description {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #BS-roles {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    
+    #BS-skills {
+        grid-column: 1;
+        grid-row: 11
+    }
+
+    .SP-grid {
+        grid-template-rows: repeat(11, 75px);
+    }
+    #SP-description {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #SP-roles {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    
+    #SP-skills {
+        grid-column: 1;
+        grid-row: 11
+    }
+    
+    .cell-description {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .cell-roles {
+        width: 350px;
+        height: 200px;
+        margin-top: 40px;
+    }
+    
+    .cell-skills {
+        width: 350px;
+        height: 320px;
+    }
+}
