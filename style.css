@@ -111,4 +111,11 @@ a:hover {
     padding: 0.5em;
     margin: 0.5em;
     text-align: center;
+    cursor: pointer;
+    transition: background-color 1s ease, color 1s ease; 
+}
+
+.submit-button:hover {
+    background-color: goldenrod;
+    color: gold;
 }
