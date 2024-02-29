@@ -30,6 +30,7 @@ Outside of the references in Simulated Universe, we have very limited informatio
 
 Black Swan Character Trailer
 ----------------------------
+[Link](https://youtu.be/oi7nExnbpoY)
 
 Sparkle
 -------
@@ -62,6 +63,7 @@ The only thing that can lure her interest is "amusement".
 
 Sparkle Character Trailer
 -------------------------
+[Link](https://youtu.be/JnMGFGqB6uY)
 
 Who are you choosing to pull
 ----------------------------
