@@ -81,7 +81,7 @@ Copyright © COGNOSPHERE. All Rights Reserved.
 
 Deployed Site:
 --------------
-[Link](https://geraldrizky-hsr-module1.netlify.app/)
+[Link](https://gcreator.online/)
 =======
 
 ## Deployment Process
