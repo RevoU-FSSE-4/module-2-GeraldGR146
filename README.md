@@ -109,7 +109,7 @@ Deployed Site:
 
 ![screen shot](Readme-IMG/Deploy-site.PNG)
 
-1. Deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `main` branch of the origin repository.
+9. Deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `main` branch of the origin repository.
 
 ### Buying and Setting up a custom domain
 
