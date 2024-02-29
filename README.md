@@ -84,26 +84,28 @@ Deployed Site:
 [Link](https://geraldrizky-hsr-module1.netlify.app/)
 =======
 
-## Deployment Process 
-1. Make sure all your code is pushed up to Github on the branch you want to deploy
+## Deployment Process
+1. Make sure all your code is pushed up to Github on the branch you want to deploy e.g.`Main`
 2. Navigate to https://app.netlify.com/
-3. Login/Create an account
-4. Click "Add New Site" and "Import an Existing Project"
+3. Login/Create an account with Github
 
-![screen shot](https://github.com/RevoU-FSSE-4/module-2-GeraldGR146/blob/Main/Readme-IMG/Import-from-existing-project.PNG)
+![screen shot](Readme-IMG/Sign-up-Github.PNG)
 
-1. Select Github
+1. Click `Add new site` and `Import an existing project`
 
-![screen shot]()
+![screen shot](Readme-IMG/Import-from-existing-project.PNG)
+
+5. Select `Deploy with Github`
+
+![screen shot](Readme-IMG/Deploy-with-Github.PNG)
 
 6. Netlify will ask you to authenticate with GitHub
 7. Select the repo that you want to deploy
+8. Review the configurations as are shown below and click **Deploy "Site Name"**
 
-![screen shot]()
+![screen shot](Readme-IMG/Update-Setting.PNG)
 
-8. Update the settings as are shown below and click **Deploy "Site Name"**
-
-![screen shot]()
+![screen shot](Readme-IMG/Deploy-site.PNG)
 
 9. Deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `main` branch of the origin repository.
 
@@ -112,23 +114,25 @@ Deployed Site:
 1. Go to https://www.niagahoster.co.id/domain-murah or any other domain registrar
 2. Purchase your custom domain name
 
-![screen shot]()
+![screen shot](Readme-IMG/Buy-Domain.PNG)
 
 3. Navigate back to https://app.netlify.com and select your site
 4. Navigate to `Set up a custom domain`.
-
-![screen shot]()
-
 5. Add your custom domain to your site
 
-![screen shot]()
+![screen shot](Readme-IMG/Add-Custom-Domain.PNG)
 
-6. Select `Add domain alias` 
-7. Netlify will display a modal providing instructions on how to update your DNS/Nameservers
-8. Update your DNS/Nameservers in the domain registrar site to the modal given by netlify
+6. Netlify will display a modal providing instructions on how to update your DNS/Nameservers
+7.  Update your DNS/Nameservers in the domain registrar site to the modal given by netlify
 
-![screen shot]()
+![screen shot](Readme-IMG/Change-Nameserver.PNG)
 
-9.  Wait for your external DNS/Nameservers to be verified, and once verified, visit your domain to verify that it's working
+8. Wait for your external DNS/Nameservers to be verified
+
+![screen shot](Readme-IMG/Connect-Custom-Domain-Netlify.PNG)
+
+9. Once verified, visit your domain to verify that it's working
+
+![screen shot](Readme-IMG/Custom-Domain-Done.PNG)
 
 ## Site should be good to go!
