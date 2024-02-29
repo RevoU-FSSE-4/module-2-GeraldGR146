@@ -105,7 +105,7 @@ Deployed Site:
 7. Select the repo that you want to deploy
 8. Review the configurations as are shown below and click **Deploy "Site Name"**
 
-![screen shot](Readme-IMG/Update-Setting.PNG)
+![screen shot](Readme-IMG/Let.PNG)
 
 ![screen shot](Readme-IMG/Deploy-site.PNG)
 
