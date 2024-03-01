@@ -86,6 +86,37 @@ Deployed Site:
 [Link](https://gcreator.online/)
 =======
 
+## Setting up Github Repository
+Create New Repository in Github
+
+Open Computer Terminal and enter this command line
+
+	cd ~your project directory
+	git init
+	git add .
+	git commit -m "your message"
+    git remote add origin the link copied from your github repository page
+    git branch -m master main
+    git push -u origin main
+
+### Cloning an existing repository and Creating Branch
+To clone a repository you first need to copy the URL for the repository. You can the open the computer terminal and enter the following command
+
+		cd ~the location where you want the cloned directory
+		git clone {{the link you just copied}} 
+
+To create branch you can enter the following command
+
+		git checkout -b <branch name>
+        git branch
+
+To merge the branch you can enter to enter the following command
+
+        git pull <remote> <branch name>
+        or
+        git fetch <remote>
+        git merge <remote>/<branch name>
+
 ## Deployment Process
 1. Make sure all your code is pushed up to Github on the branch you want to deploy e.g.`Main`
 2. Navigate to https://app.netlify.com/
